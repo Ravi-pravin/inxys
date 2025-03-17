@@ -127,4 +127,10 @@ a {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .groupbtnbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
