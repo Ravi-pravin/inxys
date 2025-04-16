@@ -128,9 +128,9 @@ a {
         grid-template-columns: 1fr;
     }
 
-    .heroBox h2 {
+    .heroBox p{
         color: #ffffff;
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .groupbtnbox{
         display: flex;
