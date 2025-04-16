@@ -28,30 +28,34 @@
     font-size: 3rem;
 }
 
-.navbarsection{
+.navbarsection {
     background-image: url(./assets/images/second_banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-position: fixed;
 }
 
-.heroBox{
-    padding: 22rem 35rem 22rem 35rem;
+.heroBox {
+    padding: 22rem 0rem 22rem 0rem;
 }
-.heroBox h1{
+
+.heroBox h1 {
     color: #ffffff;
 }
-.heroBox h2{
+
+.heroBox h2 {
     color: #ffffff;
     font-size: 8rem;
 }
-.line{
+
+.line {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 3rem 0rem;
 }
-.line hr{
+
+.line hr {
     width: 5%;
     display: flex;
     align-items: center;
@@ -60,15 +64,16 @@
     background-color: #4cddf3;
 }
 
-.herobutton{
+.herobutton {
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
 }
 
-.aboutussection{
+.aboutussection {
     padding: 8rem 0rem;
 }
+
 .aboutussection h6 {
     font-family: var(--ffSecondary);
     font-size: 1.5rem;
@@ -107,17 +112,54 @@
 
 
 
+.cardcarouselbtnbox button i {
+    font-size: 7rem;
+    color: #888888;
+}
+
+.cardcarouselbtnbox button i:hover {
+    color: #4cddf3;
+}
+
+.cardcarouselbtnbox .listbtn {
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: #4cddf3;
+    padding: 1.5rem 2rem;
+    letter-spacing: 1px;
+}
+
+.card {
+    margin: 1rem;
+    width: fit-content;
+    background-color: transparent;
+    border: 0;
+}
+
+.card img {
+    height: 20rem;
+    width: 23rem;
+}
+
+.card h5 {
+    font-size: 2rem;
+}
+
+
+
+
 .industriessection .card:hover {
     background-color: #4cddf3;
 }
 
-.skillsection h6{
+.skillsection h6 {
     font-family: var(--ffSecondary);
     font-size: 1.5rem;
     color: #4cddf3;
     font-weight: 400;
     margin-bottom: 2rem;
 }
+
 .skillsection h3 {
     font-family: var(--ffPrimary);
     font-size: 2.8rem;
@@ -125,7 +167,8 @@
     font-weight: 500;
     margin-bottom: 8rem;
 }
-.progress-bar{
+
+.progress-bar {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -135,33 +178,38 @@
 }
 
 
-.footersectrion p{
+.footersectrion p {
     font-family: var(--ffPrimary);
     font-size: 1.6rem;
     color: #888888;
     font-weight: 500;
 }
-.social{
+
+.social {
     font-size: 2rem;
-    border:2px solid grey;
+    border: 2px solid grey;
     height: 5rem;
     width: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
-    .footericon{
-        padding: 1rem;
-    }
-    .footersectrion span{
-        color: #414141;
-        font-weight: 700;
-    }
-    .footersectrion button{
-        color: #ffffff;
-        font-weight: 600;
-        background-color: #4cddf3;
-    }
-    .footersectrion iframe{
-        width: 100%;
-    }
+}
+
+.footericon {
+    padding: 1rem;
+}
+
+.footersectrion span {
+    color: #414141;
+    font-weight: 700;
+}
+
+.footersectrion button {
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #4cddf3;
+}
+
+.footersectrion iframe {
+    width: 100%;
+}
