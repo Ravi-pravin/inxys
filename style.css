@@ -127,6 +127,11 @@ a {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .heroBox h2 {
+        color: #ffffff;
+        font-size: 5rem;
+    }
     .groupbtnbox{
         display: flex;
         align-items: center;

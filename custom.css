@@ -112,6 +112,9 @@
 
 
 
+.cardcarouselbtnbox button {
+    border: 0;
+}
 .cardcarouselbtnbox button i {
     font-size: 7rem;
     color: #888888;
